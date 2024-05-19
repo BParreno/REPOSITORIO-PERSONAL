@@ -1,0 +1,51 @@
+.card {
+    border: 8px solid #250b0b; /*Creamos un borde solido que rodea el contenido*/
+    border-radius: 20px; /*Determinamos el radio de las esquinas*/
+    padding: 20px; /*Creamos espacio entre el contenido de la tarjeta y el borde*/
+    width: 800px; /*Definimos el ancho de la tarjeta*/
+    height: 400px; /*Definimos la altura de la tarjeta*/
+    margin-top: 40px; /*Creamos un espacio entre la tarjeta y la parte superior de la pantalla*/
+    margin-left: 40px; /*Creamos un espacio entre la tarjeta y la parte izquierda de la pantalla*/
+    text-align: left; /*Alineamos hacia la izquierda la orientacion del texto*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /*Definimos la fuente del texto*/
+    display: flex; /*Creamos una estructura flexible para la dispocicion de los elementos de la tarjeta*/
+    flex-direction: row; /*Definimos la dispocicion de la estructura que creamos en la linea anterior*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*Añadimos sombra al contenido de la tarjeta*/
+    background-color: #a36c7c;
+}
+
+.card .profilepicture {
+    width: 160px; /*Determinamos el ancho de la imagen*/
+    height: 160px; /*Determinamos el alto de la imagen*/
+    margin: 10px; /*Creamos un espacio entre la imagen y los otros elementos*/
+    border-radius: 100px; /*Determinamos que la imagen sea circular, redondeando el borde*/
+    background-size: 100%; /*Hacemos que la imagen se adapte al tamaño del circulo*/
+    background-image: url(Gojira.png); /*Colocamos la imagen en la tarjeta*/
+}
+
+.card .name {
+    margin: 0; /*Removemos el margen del texto*/
+    font-size: 72px; /*Define el tamaño de la fuente*/
+    color: #700830; /*Determinamos el color del texto*/
+}
+
+.card .workposition {
+    margin: 0; /*Removemos el margen del texto*/
+    font-size: 48px; /*Define el tamaño de la fuente*/
+    color: #700830; /*Determinamos el color del texto*/
+}
+
+.card .description {
+    margin-top: 10px; /*Creamos un espacio entre la descripcion y el cargo del empleado*/
+    margin-bottom: 10px; /*Creamos un espacio entre la descripcion y los datos de contacto*/
+    border: solid#250b0b; /*Creamos un borde para la descripcion*/
+    border-radius: 5px; /*Redondeamos las esquinas del borde*/
+    font-size: 22px;
+    background-color: #ae3c0362;
+}
+
+.card .contact {
+    margin: 0; /*Removemos el margen del texto*/
+    font-size: 26px; /*Define el tamaño de la fuente*/
+    color: #000000; /*Determinamos el color del texto*/
+}
