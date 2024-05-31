@@ -1,0 +1,118 @@
+.card {
+    width: 1080px; /*asignamos el ancho de la tarjeta*/
+    height: 540px; /*asignamos el alto de la tarjeta*/
+    border: 1px solid grey;/*Creamos un borde con color*/
+    margin-left: 30%; /*distanciamos la tarjeta del borde izquierdo de la pantalla*/
+    margin-top: 9%; /*distanciamos la tarjeta del borde superior de la pantalla*/
+    display: inline-flex; /*alineamos el contenido*/
+    flex-wrap: wrap; /*reorganizamos el contenido*/
+    justify-content: center; /*Centramos el contenido*/
+    align-content: center; /*Centramos el contenido*/
+}
+
+.card .item1 {
+    width: 300px; /*Determinamos el ancho del objeto #1*/
+    height: 180px; /*Determinamos el alto del objeto #1*/
+    border: 7.5px solid #ECECEC; /*Determinamos el borde*/
+    border-top: 15px solid #ECECEC; /*cambiamos el borde superior*/
+    border-left: 15px solid #ECECEC; /*cambiamos el borde izquierdo*/
+}
+
+.card .item1 .color1 {
+    width: 200px; /*Determinamos el ancho del color #1*/
+    height: 120px; /*Determinamos el alto del color #1*/
+    background-color: #F20101; /*asignamos el color*/
+    margin-top: 30px; /*asignamos un margen superior*/
+    margin-bottom: 30px; /*asignamos un margen inferior*/
+    margin-left: 50px; /*asignamos un margen izquierdo*/
+    margin-right: 50px; /*asignamos un margen derecho*/
+}
+
+.card .item2 {
+    width: 300px; /*Determinamos el ancho del objeto #2*/
+    height: 180px; /*Determinamos el alto del objeto #2*/
+    border: 7.5px solid #ECECEC; /*Determinamos el borde*/
+    border-top: 15px solid #ECECEC; /*cambiamos el borde superior*/
+}
+
+.card .item2 .color2 {
+    width: 200px; /*Determinamos el ancho del color #2*/
+    height: 120px; /*Determinamos el alto del color #2*/
+    background-color: #00C314; /*asignamos el color*/
+    margin-top: 30px; /*asignamos un margen superior*/
+    margin-bottom: 30px; /*asignamos un margen inferior*/
+    margin-left: 50px; /*asignamos un margen izquierdo*/
+    margin-right: 50px; /*asignamos un margen derecho*/
+}
+
+.card .item3 {
+    width: 300px; /*Determinamos el ancho del objeto #3*/
+    height: 180px; /*Determinamos el alto del objeto #3*/
+    border: 7.5px solid #ECECEC; /*Determinamos el borde*/
+    border-top: 15px solid #ECECEC; /*cambiamos el borde superior*/
+    border-right: 15px solid #ECECEC; /*cambiamos el borde derecho*/
+}
+
+.card .item3 .color3 {
+    width: 200px; /*Determinamos el ancho del color #3*/
+    height: 120px; /*Determinamos el alto del color #3*/
+    background-color: #0153F2; /*asignamos el color*/
+    margin-top: 30px; /*asignamos un margen superior*/
+    margin-bottom: 30px; /*asignamos un margen inferior*/
+    margin-left: 50px; /*asignamos un margen izquierdo*/
+    margin-right: 50px; /*asignamos un margen derecho*/
+}
+
+.card .item4 {
+    width: 300px; /*Determinamos el ancho del objeto #4*/
+    height: 180px; /*Determinamos el alto del objeto #4*/
+    border: 7.5px solid #ECECEC; /*Determinamos el borde*/
+    border-bottom: 15px solid #ECECEC; /*cambiamos el borde inferior*/
+    border-left: 15px solid #ECECEC; /*cambiamos el borde izquierdo*/
+}
+
+.card .item4 .color4 {
+    width: 200px; /*Determinamos el ancho del color #4*/
+    height: 120px; /*Determinamos el alto del color #4*/
+    background-color: #00C314; /*asignamos el color*/
+    margin-top: 30px; /*asignamos un margen superior*/
+    margin-bottom: 30px; /*asignamos un margen inferior*/
+    margin-left: 50px; /*asignamos un margen izquierdo*/
+    margin-right: 50px; /*asignamos un margen derecho*/
+}
+
+
+.card .item5 {
+    width: 300px; /*Determinamos el ancho del objeto #5*/
+    height: 180px; /*Determinamos el alto del objeto #5*/
+    border: 7.5px solid #ECECEC; /*Determinamos el borde*/
+    border-bottom: 15px solid #ECECEC; /*cambiamos el borde inferior*/
+}
+
+.card .item5 .color5 {
+    width: 200px; /*Determinamos el ancho del color #5*/
+    height: 120px; /*Determinamos el alto del color #5*/
+    background-color: #0153F2; /*asignamos el color*/
+    margin-top: 30px; /*asignamos un margen superior*/
+    margin-bottom: 30px; /*asignamos un margen inferior*/
+    margin-left: 50px; /*asignamos un margen izquierdo*/
+    margin-right: 50px; /*asignamos un margen derecho*/
+}
+
+.card .item6{
+    width: 300px; /*Determinamos el ancho del objeto #6*/
+    height: 180px; /*Determinamos el alto del objeto #6*/
+    border: 7.5px solid #ECECEC; /*Determinamos el borde*/
+    border-bottom: 15px solid #ECECEC; /*cambiamos el borde inferior*/
+    border-right: 15px solid #ECECEC; /*cambiamos el borde derecho*/
+}
+
+.card .item6 .color6 {
+    width: 200px; /*Determinamos el ancho del color #6*/
+    height: 120px; /*Determinamos el alto del color #6*/
+    background-color: #F20101; /*asignamos el color*/
+    margin-top: 30px; /*asignamos un margen superior*/
+    margin-bottom: 30px; /*asignamos un margen inferior*/
+    margin-left: 50px; /*asignamos un margen izquierdo*/
+    margin-right: 50px; /*asignamos un margen derecho*/
+}
