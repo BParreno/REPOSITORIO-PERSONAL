@@ -1,66 +1,47 @@
 .pyramid {
-  clip-path: polygon(50% 0, 100% 100%, 0 100%);
-  width: 25%;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%); /*Creamos la forma de la piramide*/
+  width: 1000px; /*Definimos el ancho*/
+  height: 600px; /*Definimos la altura*/
+  background-color: gray; /*Color de fondo*/
+  display: grid; /*Asignamos la dispocision*/
+  gap: 4px; /*determinamos la separacion entre secciones*/
 }
+.one {
+  background-color: #049DFC; /*Color de la seccion*/
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4d6c04dd-fd09-407d-a941-8e839326f1a6/dhcs0cr-c448a57d-286d-44ac-a047-5dca0e0efdf7.png/v1/fill/w_1024,h_1024/floating_city_ghibli_by_psybre_art_dhcs0cr-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzRkNmMwNGRkLWZkMDktNDA3ZC1hOTQxLThlODM5MzI2ZjFhNlwvZGhjczBjci1jNDQ4YTU3ZC0yODZkLTQ0YWMtYTA0Ny01ZGNhMGUwZWZkZjcucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.5b-Wa5o6-TlwLMjVivXy0rMvlP-Z29cx_A9I6HOSZ4s); /*imagen de la seccion*/
+  background-size: 14%; /*tamaño de el fondo*/
+  background-repeat: round; /*Como se va a repetir la imagen en la seccion*/
+
+}
+
+.two {
+  background-color: #049dfcc7;
+  background-image: url(https://noviocean.energy/wp-content/uploads/2023/10/replicate-prediction-ahfloqjba5uehznqudijmpaoky-2048x2048.webp);
+  background-size: 10%;
+  background-repeat: round;
+}
+.three {
+  background-color: #049dfc9a;
+  background-image: url(https://raw.githubusercontent.com/BParreno/REPOSITORIO-PERSONAL/main/2.3-Flexbox/2.3-Actividad-del-Tema/src/app/1.png);
+  background-size: 10%;
+  background-repeat: round;
+}
+.four {
+  background-color: #049dfc86;
+  background-image: url(https://raw.githubusercontent.com/BParreno/REPOSITORIO-PERSONAL/main/2.3-Flexbox/2.3-Actividad-del-Tema/src/app/2.png);
+  background-size: 10%;
+  background-repeat: round;
   
-.level {
-  display: inline-block;
-  justify-content: space-evenly;
-  width: 100%;
 }
-
-.group1 {
-  background-color: #ffd700;
-  padding: 10px;
-  border-radius: 5px;
-  flex-grow: 10%;
-  margin: 5px;
-  text-align: center;
-  background-image: url(1.png);
-  background-size: 100%;
+.five {
+  background-color: #049dfc5d;
+  background-image: url(https://i.pinimg.com/originals/66/c3/34/66c3341df64253d62c0db4e2f6d54e50.png);
+  background-size: 20%;
+  background-repeat: round;
 }
-
-.group2 {
-  background-color: #ffd700;
-  padding: 10px;
-  border-radius: 5px;
-  flex-grow: 10%;
-  margin: 5px;
-  text-align: center;
-  background-image: url(2.png);
-  background-size: 100%;
+.six {
+  background-color: #049dfc4d;
+  background-image: url(https://raw.githubusercontent.com/BParreno/REPOSITORIO-PERSONAL/main/2.3-Flexbox/2.3-Actividad-del-Tema/src/app/5.png);
+  background-size: 40%;
+  background-repeat: round;
 }
-
-.group3 {
-  background-color: #ffd700; 
-  padding: 10px;
-  border-radius: 5px;
-  flex-grow: 10%;
-  margin: 5px;
-  text-align: center;
-  background-image: url(3.png);
-  background-size: 100%;
-}
-
-.group4 {
-  background-color: #ffd700;
-  padding: 10px;
-  border-radius: 5px;
-  flex-grow: 10%;
-  margin: 5px;
-  text-align: center;
-  background-image: url(shrimp.png);
-  background-size: 100%;
-}
-.group5 {
-  background-color: #ffd700;
-  padding: 10px;
-  border-radius: 5px;
-  flex-grow: 10%;
-  margin: 5px;
-  text-align: center;
-  background-image: url(5.png);
-  background-size: 100%;
-}
-
-/*Aqui tampoco funciona si pongo las imagenes en el archivo css*/
