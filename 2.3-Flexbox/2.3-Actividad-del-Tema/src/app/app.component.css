@@ -1,0 +1,66 @@
+.pyramid {
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  width: 25%;
+}
+  
+.level {
+  display: inline-block;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.group1 {
+  background-color: #ffd700;
+  padding: 10px;
+  border-radius: 5px;
+  flex-grow: 10%;
+  margin: 5px;
+  text-align: center;
+  background-image: url(1.png);
+  background-size: 100%;
+}
+
+.group2 {
+  background-color: #ffd700;
+  padding: 10px;
+  border-radius: 5px;
+  flex-grow: 10%;
+  margin: 5px;
+  text-align: center;
+  background-image: url(2.png);
+  background-size: 100%;
+}
+
+.group3 {
+  background-color: #ffd700; 
+  padding: 10px;
+  border-radius: 5px;
+  flex-grow: 10%;
+  margin: 5px;
+  text-align: center;
+  background-image: url(3.png);
+  background-size: 100%;
+}
+
+.group4 {
+  background-color: #ffd700;
+  padding: 10px;
+  border-radius: 5px;
+  flex-grow: 10%;
+  margin: 5px;
+  text-align: center;
+  background-image: url(shrimp.png);
+  background-size: 100%;
+}
+.group5 {
+  background-color: #ffd700;
+  padding: 10px;
+  border-radius: 5px;
+  flex-grow: 10%;
+  margin: 5px;
+  text-align: center;
+  background-image: url(5.png);
+  background-size: 100%;
+}
+
+/*Aqui tampoco funciona si pongo las imagenes en el archivo css*/

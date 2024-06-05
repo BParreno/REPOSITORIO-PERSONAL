@@ -1,0 +1,49 @@
+.pyramid {
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  width: 50%;
+}
+
+.level {
+  display: inline-block;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.group {
+  background-color: #ffd700; /* Gold */
+  padding: 10px;
+  border-radius: 5px;
+  flex-grow: 1;
+  margin: 5px;
+  text-align: center;
+}
+
+.im1{
+  width: 10px;
+  height: 10px;
+}
+
+.im2{
+  width: 10px;
+  height: 10px;
+}
+
+.im2{
+  width: 10px;
+  height: 10px;
+}
+
+.im3{
+  width: 10px;
+  height: 10px;
+}
+
+.im4{
+  width: 10px;
+  height: 10px;
+}
+
+.im5{
+  width: 10px;
+  height: 10px;
+}
