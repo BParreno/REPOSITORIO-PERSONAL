@@ -1,0 +1,31 @@
+.card {
+  display: flex; /* Establece el contenedor como un flex container para alinear y distribuir elementos hijos */
+  justify-content: center; /* Centra los elementos a lo largo del eje principal (horizontalmente en este caso) */
+  align-items: center; /* Centra los elementos a lo largo del eje secundario (verticalmente en este caso) */
+  width: fit-content; /* Ancho del contenedor ajustado al contenido */
+  margin: 20px auto; /* Margen superior e inferior de 20px, centrado horizontalmente */
+  padding: 20px; /* Espaciado interno de 20px */
+  border: 2px solid #000; /* Borde de 2px sólido de color negro */
+  border-radius: 10px; /* Borde redondeado con radio de 10px */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra con desenfoque de 10px de color negro */
+}
+
+.number-card {
+  display: grid; /* Establece el contenedor como un grid container para organizar los elementos en una cuadrícula */
+  grid-template-columns: repeat(11, 1fr); /* Grid con 11 columnas de igual ancho */
+  gap: 5px; /* Espacio entre las celdas del grid de 5px */
+}
+
+.square {
+  display: flex; /* Establece el elemento como un flex container para alinear y distribuir elementos hijos */
+  align-items: center; /* Centra los elementos a lo largo del eje secundario (verticalmente en este caso) */
+  justify-content: center; /* Centra los elementos a lo largo del eje principal (horizontalmente en este caso) */
+  width: 50px; /* Ancho de cada cuadrado de 50px */
+  height: 50px; /* Alto de cada cuadrado de 50px */
+  border: 1px solid black; /* Borde de 1px sólido de color negro */
+  font-size: 1.2em; /* Tamaño de fuente del número dentro del cuadrado */
+}
+
+.square.prime {
+  background-color: #ff0000; /* Color de fondo para números primos (rojo) */
+}
