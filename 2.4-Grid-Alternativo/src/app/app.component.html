@@ -1,0 +1,12 @@
+<div class="card">
+  <div class="number-card">
+    <ng-container *ngFor="let number of numbers">
+      <div
+        class="square"
+        [ngClass]="{'prime': isPrime(number)}"
+        [ngStyle]="{'background-color': !isPrime(number) ? getNonPrimeColor(number) : ''}"> <!-- Establece el color de fondo según si el número es primo o no -->
+        {{ number }} <!-- Muestra el número en el cuadro -->
+      </div>
+    </ng-container>
+  </div>
+</div>

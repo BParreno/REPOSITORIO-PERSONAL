@@ -1,31 +1,277 @@
-.card {
-  display: flex; /* Establece el contenedor como un flex container para alinear y distribuir elementos hijos */
-  justify-content: center; /* Centra los elementos a lo largo del eje principal (horizontalmente en este caso) */
-  align-items: center; /* Centra los elementos a lo largo del eje secundario (verticalmente en este caso) */
-  width: fit-content; /* Ancho del contenedor ajustado al contenido */
-  margin: 20px auto; /* Margen superior e inferior de 20px, centrado horizontalmente */
-  padding: 20px; /* Espaciado interno de 20px */
-  border: 2px solid #000; /* Borde de 2px sólido de color negro */
-  border-radius: 10px; /* Borde redondeado con radio de 10px */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra con desenfoque de 10px de color negro */
+.card { /*Agregamos las caracteristicas generales de la tarjeta*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.number-card {
-  display: grid; /* Establece el contenedor como un grid container para organizar los elementos en una cuadrícula */
-  grid-template-columns: repeat(11, 1fr); /* Grid con 11 columnas de igual ancho */
-  gap: 5px; /* Espacio entre las celdas del grid de 5px */
+.number-card { /*Agregamos las caracteristicas para number-card*/
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  gap: 5px;
 }
 
-.square {
-  display: flex; /* Establece el elemento como un flex container para alinear y distribuir elementos hijos */
-  align-items: center; /* Centra los elementos a lo largo del eje secundario (verticalmente en este caso) */
-  justify-content: center; /* Centra los elementos a lo largo del eje principal (horizontalmente en este caso) */
-  width: 50px; /* Ancho de cada cuadrado de 50px */
-  height: 50px; /* Alto de cada cuadrado de 50px */
-  border: 1px solid black; /* Borde de 1px sólido de color negro */
-  font-size: 1.2em; /* Tamaño de fuente del número dentro del cuadrado */
+.square {/*Agregamos las caracteristicas para square*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 1.2em;
 }
 
-.square.prime {
-  background-color: #ff0000; /* Color de fondo para números primos (rojo) */
+.square.prime {/*Agregamos el color #ff0000 para todos los numeros primos*/
+  background-color: #ff0000;
 }
+
+.square.zero {/*Agregamos el color individual para cada numero que no sea primo*/
+background-color: #8ad5e7;
+}
+
+.square.one {
+  background-color: #9376a0;
+}
+.square.four {
+  background-color: #213012;
+}
+.square.six {
+  background-color: #e4ec75;
+}
+.square.eight {
+  background-color: #f87e7e;
+}
+.square.nine {
+background-color: #5c1246;
+}
+.square.ten {
+  background-color: #9b2e58;
+}
+.square.twelve {
+  background-color: #d3e90e;
+}
+.square.fourteen {
+  background-color: #a80a47;
+}
+.square.fifteen {
+  background-color: #969dda;
+}
+.square.sixteen {
+  background-color: #967d11;
+}
+.square.eighteen {
+  background-color: #3d5250;
+}
+.square.twenty {
+  background-color: #e60cb6;
+}
+.square.twenty-one {
+  background-color: #e9e516;
+}
+.square.twenty-two {
+  background-color: #835213;
+}
+.square.twenty-four {
+  background-color: #c9abab;
+}
+.square.twenty-five {
+  background-color: #3a677c;
+}
+.square.twenty-six {
+  background-color: #1226dd;
+}
+.square.twenty-seven {
+  background-color: #14cf91;
+}
+.square.twenty-eight {
+  background-color: #031c4b;
+}
+.square.thirty {
+  background-color: #a16998;
+}
+.square.thirty-two {
+  background-color: #d0dfcd;
+}
+.square.thirty-three {
+  background-color: #796e5d;
+}
+.square.thirty-four {
+  background-color: #e79b68;
+}
+.square.thirty-five {
+  background-color: #db67b5;
+}
+.square.thirty-six {
+  background-color: #8392d8;
+}
+.square.thirty-eight {
+  background-color: #223f15;
+}
+.square.thirty-nine {
+  background-color: #13b456;
+}
+.square.forty {
+  background-color: #b69a9386;
+}
+.square.forty-two {
+  background-color: #33FF57;
+}
+.square.forty-four {
+  background-color: #5733FF;
+}
+.square.forty-five {
+  background-color: #FF33E1;
+}
+.square.forty-six {
+  background-color: #33E1FF
+  ;
+}
+.square.forty-eight {
+  background-color: #E1FF33;
+}
+.square.forty-nine {
+  background-color: #33c5ff;
+}
+.square.fifty {
+  background-color: #abdacd;
+}
+.square.fifty-one {
+  background-color: #FFD433;
+}
+.square.fifty-two {
+  background-color: #FF33A1;
+}
+.square.fifty-four {
+  background-color: #d6b6ae;
+}
+.square.fifty-five {
+  background-color: #33ff584f;
+}
+.square.fifty-six {
+  background-color: #5733FF;
+}
+.square.fifty-seven {
+  background-color: #FF33E1;
+}
+.square.fifty-eight {
+  background-color: #33E1FF;
+}
+.square.sixty {
+  background-color: #E1FF33;
+}
+.square.sixty-one {
+  background-color: #693652;
+}
+.square.sixty-two {
+  background-color: #126952;
+}
+.square.sixty-three {
+  background-color: #FFD433;
+}
+.square.sixty-four {
+  background-color: #FF33A1;
+}
+.square.sixty-five {
+  background-color: #51ff00;
+}
+.square.sixty-six {
+  background-color: #33FF57;
+}
+.square.sixty-seven {
+  background-color: #5733FF;
+}
+.square.sixty-eight {
+  background-color: #FF33E1;
+}
+.square.sixty-nine {
+  background-color: #33E1FF;
+}
+.square.seventy {
+  background-color: #e0ff3305;
+}
+.square.seventy-two {
+  background-color: #4582a5;
+}
+.square.seventy-four {
+  background-color: #3d3d3d;
+}
+.square.seventy-five {
+  background-color: #FFD433;
+}
+.square.seventy-six {
+  background-color: #FF33A1;
+}
+.square.seventy-seven {
+  background-color: #4b554d7c;
+}
+.square.seventy-eight {
+  background-color: #5733FF;
+}
+.square.seventy-nine {
+  background-color: #FF33E1;
+}
+.square.eighty {
+  background-color: #33E1FF;
+}
+.square.eighty-one {
+  background-color: #e0ff332c;
+}
+.square.eighty-two {
+  background-color: #FFD433;
+}
+.square.eighty-four {
+  background-color: #33FFC9;
+}
+.square.eighty-five {
+  background-color: #FF33A1;
+}
+.square.eighty-six {
+  background-color: #6a00f5;
+}
+.square.eighty-seven {
+  background-color: #33FF57;
+}
+.square.eighty-eight {
+  background-color: #5733FF;
+}
+.square.ninety {
+  background-color: #FF33E1;
+}
+.square.ninety-one {
+  background-color: #33E1FF;
+}
+.square.ninety-two {
+  background-color: #61644f;
+}
+.square.ninety-three {
+  background-color: #fd578e;
+}
+.square.ninety-four {
+  background-color: #7d7a8a;
+}
+.square.ninety-five {
+  background-color: #FFD433;
+}
+.square.ninety-six {
+  background-color: #FF33A1;
+}
+.square.ninety-seven {
+  background-color: #ff006a;
+}
+.square.ninety-eight {
+  background-color: #a54b02;
+}
+.square.ninety-nine {
+  background-color: #abe4ad;
+}
+.square.one-hundred {
+  background-color: #71338d;
+}
+/*en total tenemos 76 numeros con diferentes colores, y los 25 numeros primos 
+con el color rojo, siendo en total 77 colores para 101 numeros*/
