@@ -1,0 +1,79 @@
+.page {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .Titulo {
+    text-align: left;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .image-container img {
+    width: calc(50% - 5px);
+    margin-bottom: 10px;
+  }
+  
+  .moraleja {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(240, 240, 202, 0.795); /* Fondo amarillo */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .texto-rectangulo {
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  /* Media para dispositivos móviles */
+  @media screen and (max-width: 768px) {
+    .image-container img {
+      display: flexbox;
+      flex-direction: column;
+      width: calc(50% - 5px);
+      font-size:large;
+    }
+  }
+  
+  /* Media para escritorio */
+  @media screen and (min-width: 769px) {
+    .page {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      font-size:x-large;
+    }
+  
+    .image-container {
+      display: flexbox;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+  
+    .image-container img {
+      width: 23%;
+      height: 350px;
+      
+    }
+  
+    .moraleja {
+      margin-top: 20px;
+      align-self: flex-end; /* Alinea la moraleja a la derecha */
+      width: 21.5%; /* Ajusta el ancho para que coincida con el de las imágenes */
+    }
+  
+    .texto-rectangulo {
+      width: 100%; /* Ancho completo */
+    }
+  }
+  
